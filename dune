@@ -1,0 +1,7 @@
+(library
+ (public_name random)
+ (libraries
+  randomconv
+  mirage-crypto
+  mirage-crypto-rng
+  mirage-crypto-rng.unix))
