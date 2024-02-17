@@ -15,7 +15,7 @@
 
 (package
  (name random)
- (synopsis "Easy to use, cryptographically safe random data.")
+ (synopsis "Easy to use, cryptographically safe random data")
  (depends 
   (randomconv (>= "0.1.3"))
   (mirage-crypto (>= "0.11.2"))
