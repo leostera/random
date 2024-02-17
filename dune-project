@@ -17,9 +17,10 @@
  (name random)
  (synopsis "Easy to use, cryptographically safe random data")
  (depends 
-  (randomconv (>= "0.1.3"))
   (mirage-crypto (>= "0.11.2"))
   (mirage-crypto-rng (>= "0.11.2"))
-  ocaml dune)
+  (ocaml (>= "4.11.0"))
+  (randomconv (>= "0.1.3"))
+  dune)
  (tags
   (random "random data")))
