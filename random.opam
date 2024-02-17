@@ -8,6 +8,7 @@ tags: ["random" "random data"]
 homepage: "https://github.com/leostera/random"
 bug-reports: "https://github.com/leostera/random/issues"
 depends: [
+  "randomconv" {>= "0.1.3"}
   "mirage-crypto" {>= "0.11.2"}
   "mirage-crypto-rng" {>= "0.11.2"}
   "ocaml"
