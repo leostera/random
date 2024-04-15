@@ -20,7 +20,7 @@
   (mirage-crypto (>= "0.11.2"))
   (mirage-crypto-rng (>= "0.11.2"))
   (ocaml (>= "4.14.0"))
-  (randomconv (>= "0.1.3"))
+  (randomconv (>= "0.2.0"))
   dune)
  (tags
   (random "random data")))
